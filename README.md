@@ -20,17 +20,34 @@ In the file called credit.c in the credit directory, write a program that prompt
 Consider the below representative of how your own program should behave when passed a valid credit card number (sans hyphens).
 
 $ ./credit
+
 Number: 4003600000000014
+
 VISA
+
 Now, get_long itself will reject hyphens (and more) anyway:
 
+
+
+
+
 $ ./credit
+
 Number: 4003-6000-0000-0014
+
 Number: foo
+
 Number: 4003600000000014
+
 VISA
 But it’s up to you to catch inputs that are not credit card numbers (e.g., a phone number), even if numeric:
 
+
+
+
+
 $ ./credit
+
 Number: 6176292929
+
 INVALID
