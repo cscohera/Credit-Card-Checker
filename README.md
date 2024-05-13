@@ -1,6 +1,7 @@
 # Credit-Card-Checker
 
 **My answer to Cs50 credit card problem that checks if credit card is real**
+
 Works for VISA, AMEX, and MASTERCARD
 
 **Problem**
